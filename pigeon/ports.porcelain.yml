@@ -3572,6 +3572,24 @@ ports:
     past-maintainers:
     - username: AngelBerihuete
       url: https://github.com/AngelBerihuete
+- name: Ruby
+  categories:
+  - key: library
+    name: Libraries
+    description: Software libraries that implement and expose the Catppuccin palette
+      in a programming language.
+    emoji: 📚
+  platform: agnostic
+  color: red
+  icon: ruby
+  key: ruby
+  repository:
+    name: ruby
+    url: https://github.com/catppuccin/ruby
+    current-maintainers:
+    - username: acm-wq
+      url: https://github.com/acm-wq
+    past-maintainers: []
 - name: Rust
   categories:
   - key: library
@@ -6385,6 +6403,27 @@ ports:
     description: Modified CSS files that can be applied to a website.
     emoji: 🖌️
   color: green
+- name: keybr.com
+  key: keybr.com
+  repository:
+    name: keybr.com
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/keybr.com
+    current-maintainers:
+    - username: TadoTheMiner
+      name: jan Tatesa
+      url: https://github.com/TadoTheMiner
+    past-maintainers: []
+  categories:
+  - key: productivity
+    name: Productivity
+    description: Applications that make certain tasks or activities more organised
+      and efficient.
+    emoji: 📖
+  - key: userstyle
+    name: Userstyles
+    description: Modified CSS files that can be applied to a website.
+    emoji: 🖌️
+  color: text
 - name: Keyoxide
   key: keyoxide
   repository:
@@ -6866,9 +6905,9 @@ ports:
     name: wiki.nixos.org
     url: https://github.com/catppuccin/userstyles/tree/main/styles/wiki.nixos.org
     current-maintainers:
-    - username: orxngc
+    - username: orangci
       name: orangc
-      url: https://github.com/orxngc
+      url: https://github.com/orangci
     past-maintainers:
     - username: nekowinston
       name: winston
@@ -7894,6 +7933,8 @@ collaborators:
 - username: AwA-VR
   name: AwA
   url: https://github.com/AwA-VR
+- username: acm-wq
+  url: https://github.com/acm-wq
 - username: asrvd
   url: https://github.com/asrvd
 - username: aszecsei
@@ -8310,11 +8351,14 @@ collaborators:
 - username: jh-devv
   name: jh-devv
   url: https://github.com/jh-devv
-- username: orxngc
+- username: orangci
   name: orangc
-  url: https://github.com/orxngc
+  url: https://github.com/orangci
 - username: comfysage
   url: https://github.com/comfysage
+- username: TadoTheMiner
+  name: jan Tatesa
+  url: https://github.com/TadoTheMiner
 categories:
 - key: code_editor
   name: Code Editors & IDEs
@@ -8508,6 +8552,9 @@ showcases:
 - title: Reciper
   description: A simple, open-source recipe management app.
   link: https://github.com/judemont/reciper
+- title: Catbbrew
+  description: Easily create your own Catppuccin flavors.
+  link: https://catbbrew.com/
 archived-ports:
 - name: Google Chrome DevTools
   reason: Chrome has removed the experimental API required for the Catppuccin theme

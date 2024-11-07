@@ -29,6 +29,8 @@ collaborators:
 - username: AwA-VR
   name: AwA
   url: https://github.com/AwA-VR
+- username: acm-wq
+  url: https://github.com/acm-wq
 - username: asrvd
   url: https://github.com/asrvd
 - username: aszecsei
@@ -1117,6 +1119,9 @@ repositories:
   url: https://github.com/catppuccin/rstudio
   current-maintainers: []
   past-maintainers: [AngelBerihuete]
+- name: ruby
+  url: https://github.com/catppuccin/ruby
+  current-maintainers: [acm-wq]
 - name: rust
   url: https://github.com/catppuccin/rust
   current-maintainers: [backwardspy]
@@ -2645,6 +2650,13 @@ ports:
   icon: rstudioide
   key: rstudio
   repository: rstudio
+- name: Ruby
+  categories: [library]
+  platform: agnostic
+  color: red
+  icon: ruby
+  key: ruby
+  repository: ruby
 - name: Rust
   categories: [library]
   platform: agnostic
@@ -3261,6 +3273,9 @@ showcases:
 - title: Reciper
   description: A simple, open-source recipe management app.
   link: https://github.com/judemont/reciper
+- title: Catbbrew
+  description: Easily create your own Catppuccin flavors.
+  link: https://catbbrew.com/
 archived-ports:
 - name: Google Chrome DevTools
   reason: Chrome has removed the experimental API required for the Catppuccin theme

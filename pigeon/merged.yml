@@ -29,6 +29,8 @@ collaborators:
 - username: AwA-VR
   name: AwA
   url: https://github.com/AwA-VR
+- username: acm-wq
+  url: https://github.com/acm-wq
 - username: asrvd
   url: https://github.com/asrvd
 - username: aszecsei
@@ -445,11 +447,14 @@ collaborators:
 - username: jh-devv
   name: jh-devv
   url: https://github.com/jh-devv
-- username: orxngc
+- username: orangci
   name: orangc
-  url: https://github.com/orxngc
+  url: https://github.com/orangci
 - username: comfysage
   url: https://github.com/comfysage
+- username: TadoTheMiner
+  name: jan Tatesa
+  url: https://github.com/TadoTheMiner
 categories:
 - key: code_editor
   name: Code Editors & IDEs
@@ -1218,6 +1223,9 @@ repositories:
   url: https://github.com/catppuccin/rstudio
   current-maintainers: []
   past-maintainers: [AngelBerihuete]
+- name: ruby
+  url: https://github.com/catppuccin/ruby
+  current-maintainers: [acm-wq]
 - name: rust
   url: https://github.com/catppuccin/rust
   current-maintainers: [backwardspy]
@@ -1668,6 +1676,9 @@ repositories:
 - name: jisho
   url: https://github.com/catppuccin/userstyles/tree/main/styles/jisho
   current-maintainers: [Lichthagel]
+- name: keybr.com
+  url: https://github.com/catppuccin/userstyles/tree/main/styles/keybr.com
+  current-maintainers: [TadoTheMiner]
 - name: keyoxide
   url: https://github.com/catppuccin/userstyles/tree/main/styles/keyoxide
   current-maintainers: [uncenter]
@@ -1727,7 +1738,7 @@ repositories:
   current-maintainers: [cecelot]
 - name: wiki.nixos.org
   url: https://github.com/catppuccin/userstyles/tree/main/styles/wiki.nixos.org
-  current-maintainers: [orxngc]
+  current-maintainers: [orangci]
   past-maintainers: [nekowinston]
 - name: npm
   url: https://github.com/catppuccin/userstyles/tree/main/styles/npm
@@ -3084,6 +3095,13 @@ ports:
   icon: rstudioide
   key: rstudio
   repository: rstudio
+- name: Ruby
+  categories: [library]
+  platform: agnostic
+  color: red
+  icon: ruby
+  key: ruby
+  repository: ruby
 - name: Rust
   categories: [library]
   platform: agnostic
@@ -3938,6 +3956,11 @@ ports:
   repository: jisho
   categories: [translation_tool, userstyle]
   color: green
+- name: keybr.com
+  key: keybr.com
+  repository: keybr.com
+  categories: [productivity, userstyle]
+  color: text
 - name: Keyoxide
   key: keyoxide
   repository: keyoxide
@@ -4319,6 +4342,9 @@ showcases:
 - title: Reciper
   description: A simple, open-source recipe management app.
   link: https://github.com/judemont/reciper
+- title: Catbbrew
+  description: Easily create your own Catppuccin flavors.
+  link: https://catbbrew.com/
 archived-ports:
 - name: Google Chrome DevTools
   reason: Chrome has removed the experimental API required for the Catppuccin theme

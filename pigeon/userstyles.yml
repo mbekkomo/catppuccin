@@ -140,13 +140,16 @@ collaborators:
   url: https://github.com/stellophiliac
 - username: NeonGamerBot-QK
   url: https://github.com/NeonGamerBot-QK
-- username: orxngc
+- username: orangci
   name: orangc
-  url: https://github.com/orxngc
+  url: https://github.com/orangci
 - username: Lichthagel
   url: https://github.com/Lichthagel
 - username: comfysage
   url: https://github.com/comfysage
+- username: TadoTheMiner
+  name: jan Tatesa
+  url: https://github.com/TadoTheMiner
 categories:
 - key: userstyle
   name: Userstyles
@@ -306,6 +309,9 @@ repositories:
 - name: jisho
   url: https://github.com/catppuccin/userstyles/tree/main/styles/jisho
   current-maintainers: [Lichthagel]
+- name: keybr.com
+  url: https://github.com/catppuccin/userstyles/tree/main/styles/keybr.com
+  current-maintainers: [TadoTheMiner]
 - name: keyoxide
   url: https://github.com/catppuccin/userstyles/tree/main/styles/keyoxide
   current-maintainers: [uncenter]
@@ -365,7 +371,7 @@ repositories:
   current-maintainers: [cecelot]
 - name: wiki.nixos.org
   url: https://github.com/catppuccin/userstyles/tree/main/styles/wiki.nixos.org
-  current-maintainers: [orxngc]
+  current-maintainers: [orangci]
   past-maintainers: [nekowinston]
 - name: npm
   url: https://github.com/catppuccin/userstyles/tree/main/styles/npm
@@ -767,6 +773,11 @@ ports:
   repository: jisho
   categories: [translation_tool, userstyle]
   color: green
+- name: keybr.com
+  key: keybr.com
+  repository: keybr.com
+  categories: [productivity, userstyle]
+  color: text
 - name: Keyoxide
   key: keyoxide
   repository: keyoxide
