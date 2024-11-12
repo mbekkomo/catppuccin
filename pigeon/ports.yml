@@ -1013,6 +1013,9 @@ repositories:
 - name: obsidian
   url: https://github.com/catppuccin/obsidian
   current-maintainers: [mbeckrich]
+- name: ohmyrepl
+  url: https://github.com/catppuccin/ohmyrepl
+  current-maintainers: [Anomalocaridid]
 - name: openbox
   url: https://github.com/catppuccin/openbox
   current-maintainers: []
@@ -2456,6 +2459,12 @@ ports:
   icon: obsidian
   key: obsidian
   repository: obsidian
+- name: OhMyREPL
+  categories: [cli, development]
+  platform: [linux, macos, windows]
+  color: mauve
+  key: ohmyrepl
+  repository: ohmyrepl
 - name: Openbox
   categories: [window_manager, system]
   platform: [linux]

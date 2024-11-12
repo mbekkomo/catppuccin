@@ -48,8 +48,6 @@ collaborators:
 - username: nekowinston
   name: winston
   url: https://github.com/nekowinston
-- username: GitMuslim
-  url: https://github.com/GitMuslim
 - username: Tnixc
   name: Tnixc
   url: https://github.com/Tnixc
@@ -150,6 +148,8 @@ collaborators:
 - username: TadoTheMiner
   name: jan Tatesa
   url: https://github.com/TadoTheMiner
+- username: mxgic1337
+  url: https://github.com/mxgic1337
 categories:
 - key: userstyle
   name: Userstyles
@@ -249,13 +249,16 @@ repositories:
   current-maintainers: [Flapperoo]
 - name: google
   url: https://github.com/catppuccin/userstyles/tree/main/styles/google
-  current-maintainers: [GitMuslim]
+  current-maintainers: []
 - name: google-drive
   url: https://github.com/catppuccin/userstyles/tree/main/styles/google-drive
   current-maintainers: [r58Playz]
 - name: google-photos
   url: https://github.com/catppuccin/userstyles/tree/main/styles/google-photos
   current-maintainers: [GenShibe]
+- name: grabify
+  url: https://github.com/catppuccin/userstyles/tree/main/styles/grabify
+  current-maintainers: [trinkey]
 - name: graphite
   url: https://github.com/catppuccin/userstyles/tree/main/styles/graphite
   current-maintainers: [isabelroses]
@@ -280,6 +283,9 @@ repositories:
 - name: homepage
   url: https://github.com/catppuccin/userstyles/tree/main/styles/homepage
   current-maintainers: [Gandalf-the-Blue]
+- name: hoogle
+  url: https://github.com/catppuccin/userstyles/tree/main/styles/hoogle
+  current-maintainers: [jn-sena]
 - name: hoppscotch
   url: https://github.com/catppuccin/userstyles/tree/main/styles/hoppscotch
   current-maintainers: [justTOBBI]
@@ -295,6 +301,9 @@ repositories:
 - name: inoreader
   url: https://github.com/catppuccin/userstyles/tree/main/styles/inoreader
   current-maintainers: [thomas-philippot]
+- name: indie-wiki-buddy
+  url: https://github.com/catppuccin/userstyles/tree/main/styles/indie-wiki-buddy
+  current-maintainers: [thismoon]
 - name: instagram
   url: https://github.com/catppuccin/userstyles/tree/main/styles/instagram
   current-maintainers: [GenShibe]
@@ -353,13 +362,13 @@ repositories:
   current-maintainers: [thismoon]
 - name: microsoft-word
   url: https://github.com/catppuccin/userstyles/tree/main/styles/microsoft-word
-  current-maintainers: [GitMuslim]
+  current-maintainers: []
 - name: migadu-webmail
   url: https://github.com/catppuccin/userstyles/tree/main/styles/migadu-webmail
   current-maintainers: [uncenter]
 - name: minesweeper
   url: https://github.com/catppuccin/userstyles/tree/main/styles/minesweeper
-  current-maintainers: [GitMuslim]
+  current-maintainers: []
 - name: namemc
   url: https://github.com/catppuccin/userstyles/tree/main/styles/namemc
   current-maintainers: [Nyatalieeee]
@@ -449,7 +458,7 @@ repositories:
   past-maintainers: [bartlibert]
 - name: stylus
   url: https://github.com/catppuccin/userstyles/tree/main/styles/stylus
-  current-maintainers: [GitMuslim]
+  current-maintainers: []
 - name: substack
   url: https://github.com/catppuccin/userstyles/tree/main/styles/substack
   current-maintainers: []
@@ -471,7 +480,7 @@ repositories:
   current-maintainers: [ryanccn]
 - name: twitch
   url: https://github.com/catppuccin/userstyles/tree/main/styles/twitch
-  current-maintainers: [GitMuslim, uncenter]
+  current-maintainers: [uncenter, mxgic1337]
 - name: twitter
   url: https://github.com/catppuccin/userstyles/tree/main/styles/twitter
   current-maintainers: [watatomo]
@@ -489,7 +498,7 @@ repositories:
   current-maintainers: [FrancoRav]
 - name: wikipedia
   url: https://github.com/catppuccin/userstyles/tree/main/styles/wikipedia
-  current-maintainers: [GitMuslim]
+  current-maintainers: []
 - name: wikiwand
   url: https://github.com/catppuccin/userstyles/tree/main/styles/wikiwand
   current-maintainers: [Tnixc]
@@ -680,6 +689,11 @@ ports:
   categories: [photo_and_video, userstyle]
   icon: googlephotos
   color: sapphire
+- name: Grabify
+  key: grabify
+  repository: grabify
+  categories: [development, productivity, userstyle]
+  color: teal
 - name: Graphite
   key: graphite
   repository: graphite
@@ -724,6 +738,12 @@ ports:
   repository: homepage
   categories: [productivity, userstyle]
   color: sky
+- name: Hoogle
+  key: hoogle
+  repository: hoogle
+  categories: [development, productivity, userstyle]
+  icon: haskell
+  color: mauve
 - name: Hoppscotch
   key: hoppscotch
   repository: hoppscotch
@@ -750,6 +770,11 @@ ports:
   repository: inoreader
   categories: [productivity, userstyle]
   icon: inoreader
+  color: blue
+- name: Indie Wiki Buddy
+  key: indie-wiki-buddy
+  repository: indie-wiki-buddy
+  categories: [browser_extension, userstyle]
   color: blue
 - name: Instagram
   key: instagram

@@ -3009,6 +3009,27 @@ ports:
     - username: mbeckrich
       url: https://github.com/mbeckrich
     past-maintainers: []
+- name: OhMyREPL
+  categories:
+  - key: cli
+    name: CLI Tools
+    description: Command-line interface utilities that perform specific tasks, ranging
+      from file management to system monitoring.
+    emoji: 🐚
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  platform: [linux, macos, windows]
+  color: mauve
+  key: ohmyrepl
+  repository:
+    name: ohmyrepl
+    url: https://github.com/catppuccin/ohmyrepl
+    current-maintainers:
+    - username: Anomalocaridid
+      url: https://github.com/Anomalocaridid
+    past-maintainers: []
 - name: Openbox
   categories:
   - key: window_manager
@@ -5921,9 +5942,7 @@ ports:
   repository:
     name: google
     url: https://github.com/catppuccin/userstyles/tree/main/styles/google
-    current-maintainers:
-    - username: GitMuslim
-      url: https://github.com/GitMuslim
+    current-maintainers: []
     past-maintainers: []
   categories:
   - key: search_engine
@@ -5981,6 +6000,30 @@ ports:
     emoji: 🖌️
   icon: googlephotos
   color: sapphire
+- name: Grabify
+  key: grabify
+  repository:
+    name: grabify
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/grabify
+    current-maintainers:
+    - username: trinkey
+      url: https://github.com/trinkey
+    past-maintainers: []
+  categories:
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  - key: productivity
+    name: Productivity
+    description: Applications that make certain tasks or activities more organised
+      and efficient.
+    emoji: 📖
+  - key: userstyle
+    name: Userstyles
+    description: Modified CSS files that can be applied to a website.
+    emoji: 🖌️
+  color: teal
 - name: Graphite
   key: graphite
   repository:
@@ -6180,6 +6223,32 @@ ports:
     description: Modified CSS files that can be applied to a website.
     emoji: 🖌️
   color: sky
+- name: Hoogle
+  key: hoogle
+  repository:
+    name: hoogle
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/hoogle
+    current-maintainers:
+    - username: jn-sena
+      name: Sena
+      url: https://github.com/jn-sena
+    past-maintainers: []
+  categories:
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  - key: productivity
+    name: Productivity
+    description: Applications that make certain tasks or activities more organised
+      and efficient.
+    emoji: 📖
+  - key: userstyle
+    name: Userstyles
+    description: Modified CSS files that can be applied to a website.
+    emoji: 🖌️
+  icon: haskell
+  color: mauve
 - name: Hoppscotch
   key: hoppscotch
   repository:
@@ -6295,6 +6364,26 @@ ports:
     description: Modified CSS files that can be applied to a website.
     emoji: 🖌️
   icon: inoreader
+  color: blue
+- name: Indie Wiki Buddy
+  key: indie-wiki-buddy
+  repository:
+    name: indie-wiki-buddy
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/indie-wiki-buddy
+    current-maintainers:
+    - username: thismoon
+      url: https://github.com/thismoon
+    past-maintainers: []
+  categories:
+  - key: browser_extension
+    name: Browser Extensions
+    description: Add-ons which extend the functionality of web browsers, enhancing
+      the browsing experience.
+    emoji: 🧩
+  - key: userstyle
+    name: Userstyles
+    description: Modified CSS files that can be applied to a website.
+    emoji: 🖌️
   color: blue
 - name: Instagram
   key: instagram
@@ -6755,9 +6844,7 @@ ports:
   repository:
     name: microsoft-word
     url: https://github.com/catppuccin/userstyles/tree/main/styles/microsoft-word
-    current-maintainers:
-    - username: GitMuslim
-      url: https://github.com/GitMuslim
+    current-maintainers: []
     past-maintainers: []
   categories:
   - key: productivity
@@ -6801,9 +6888,7 @@ ports:
   repository:
     name: minesweeper
     url: https://github.com/catppuccin/userstyles/tree/main/styles/minesweeper
-    current-maintainers:
-    - username: GitMuslim
-      url: https://github.com/GitMuslim
+    current-maintainers: []
     past-maintainers: []
   categories:
   - key: game
@@ -7474,9 +7559,7 @@ ports:
   repository:
     name: stylus
     url: https://github.com/catppuccin/userstyles/tree/main/styles/stylus
-    current-maintainers:
-    - username: GitMuslim
-      url: https://github.com/GitMuslim
+    current-maintainers: []
     past-maintainers: []
   categories:
   - key: browser_extension
@@ -7642,10 +7725,10 @@ ports:
     name: twitch
     url: https://github.com/catppuccin/userstyles/tree/main/styles/twitch
     current-maintainers:
-    - username: GitMuslim
-      url: https://github.com/GitMuslim
     - username: uncenter
       url: https://github.com/uncenter
+    - username: mxgic1337
+      url: https://github.com/mxgic1337
     past-maintainers: []
   categories:
   - key: entertainment
@@ -7818,9 +7901,7 @@ ports:
   repository:
     name: wikipedia
     url: https://github.com/catppuccin/userstyles/tree/main/styles/wikipedia
-    current-maintainers:
-    - username: GitMuslim
-      url: https://github.com/GitMuslim
+    current-maintainers: []
     past-maintainers: []
   categories:
   - key: wiki
@@ -8286,8 +8367,6 @@ collaborators:
 - username: soya-daizu
   name: soya_daizu
   url: https://github.com/soya-daizu
-- username: GitMuslim
-  url: https://github.com/GitMuslim
 - username: TheMemeSniper
   name: TheMemeSniper
   url: https://github.com/TheMemeSniper
@@ -8359,6 +8438,8 @@ collaborators:
 - username: TadoTheMiner
   name: jan Tatesa
   url: https://github.com/TadoTheMiner
+- username: mxgic1337
+  url: https://github.com/mxgic1337
 categories:
 - key: code_editor
   name: Code Editors & IDEs
