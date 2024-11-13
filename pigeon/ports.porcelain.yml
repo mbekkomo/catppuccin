@@ -170,6 +170,9 @@ ports:
     - username: backwardspy
       name: pigeon
       url: https://github.com/backwardspy
+    - username: sgoudham
+      name: Hammy
+      url: https://github.com/sgoudham
     past-maintainers:
     - username: ghostx31
       url: https://github.com/ghostx31
@@ -1036,6 +1039,9 @@ ports:
     current-maintainers:
     - username: skinatro
       url: https://github.com/skinatro
+    - username: sgoudham
+      name: Hammy
+      url: https://github.com/sgoudham
     past-maintainers: []
 - name: Flow Launcher
   categories:
@@ -1389,7 +1395,10 @@ ports:
   repository:
     name: gitea
     url: https://github.com/catppuccin/gitea
-    current-maintainers: []
+    current-maintainers:
+    - username: sgoudham
+      name: Hammy
+      url: https://github.com/sgoudham
     past-maintainers:
     - username: nekowinston
       name: winston
@@ -1604,6 +1613,8 @@ ports:
     current-maintainers:
     - username: caarlos0
       url: https://github.com/caarlos0
+    - username: jolheiser
+      url: https://github.com/jolheiser
     past-maintainers: []
 - name: Godot
   categories:
@@ -4772,6 +4783,9 @@ ports:
     - username: backwardspy
       name: pigeon
       url: https://github.com/backwardspy
+    - username: sgoudham
+      name: Hammy
+      url: https://github.com/sgoudham
     past-maintainers:
     - username: ghostx31
       url: https://github.com/ghostx31
@@ -7314,6 +7328,25 @@ ports:
     description: Modified CSS files that can be applied to a website.
     emoji: 🖌️
   color: sapphire
+- name: PythonAnywhere
+  key: pythonanywhere
+  repository:
+    name: pythonanywhere
+    url: https://github.com/catppuccin/userstyles/tree/main/styles/pythonanywhere
+    current-maintainers:
+    - username: trinkey
+      url: https://github.com/trinkey
+    past-maintainers: []
+  categories:
+  - key: development
+    name: Development Tools
+    description: Tools aiding software development, management and distribution.
+    emoji: 💭
+  - key: userstyle
+    name: Userstyles
+    description: Modified CSS files that can be applied to a website.
+    emoji: 🖌️
+  color: sapphire
 - name: Quizlet
   key: quizlet
   repository:
@@ -7577,7 +7610,9 @@ ports:
   repository:
     name: substack
     url: https://github.com/catppuccin/userstyles/tree/main/styles/substack
-    current-maintainers: []
+    current-maintainers:
+    - username: uncenter
+      url: https://github.com/uncenter
     past-maintainers:
     - username: nekowinston
       name: winston

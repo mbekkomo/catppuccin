@@ -684,7 +684,7 @@ repositories:
   current-maintainers: [kkrypt0nn, davfsa]
 - name: florisboard
   url: https://github.com/catppuccin/florisboard
-  current-maintainers: [skinatro]
+  current-maintainers: [skinatro, sgoudham]
 - name: flow-launcher
   url: https://github.com/catppuccin/flow-launcher
   current-maintainers: [uncenter]
@@ -746,7 +746,7 @@ repositories:
   current-maintainers: [uncenter]
 - name: gitea
   url: https://github.com/catppuccin/gitea
-  current-maintainers: []
+  current-maintainers: [sgoudham]
   past-maintainers: [nekowinston]
 - name: github-file-explorer-icons
   url: https://github.com/catppuccin/github-file-explorer-icons
@@ -783,7 +783,7 @@ repositories:
   past-maintainers: [nekowinston]
 - name: go
   url: https://github.com/catppuccin/go
-  current-maintainers: [caarlos0]
+  current-maintainers: [caarlos0, jolheiser]
 - name: godot
   url: https://github.com/catppuccin/godot
   current-maintainers: [backwardspy]
@@ -1322,7 +1322,7 @@ repositories:
   current-maintainers: [sakkke]
 - name: vscode
   url: https://github.com/catppuccin/vscode
-  current-maintainers: [backwardspy]
+  current-maintainers: [backwardspy, sgoudham]
   past-maintainers: [ghostx31, VictorTennekes, nekowinston]
 - name: vscode-icons
   url: https://github.com/catppuccin/vscode-icons

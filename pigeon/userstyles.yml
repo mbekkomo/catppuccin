@@ -424,6 +424,9 @@ repositories:
 - name: pypi
   url: https://github.com/catppuccin/userstyles/tree/main/styles/pypi
   current-maintainers: [trinkey]
+- name: pythonanywhere
+  url: https://github.com/catppuccin/userstyles/tree/main/styles/pythonanywhere
+  current-maintainers: [trinkey]
 - name: quizlet
   url: https://github.com/catppuccin/userstyles/tree/main/styles/quizlet
   current-maintainers: [spaghettiosareyummy]
@@ -461,7 +464,7 @@ repositories:
   current-maintainers: []
 - name: substack
   url: https://github.com/catppuccin/userstyles/tree/main/styles/substack
-  current-maintainers: []
+  current-maintainers: [uncenter]
   past-maintainers: [nekowinston]
 - name: syncthing
   url: https://github.com/catppuccin/userstyles/tree/main/styles/syncthing
@@ -992,6 +995,11 @@ ports:
 - name: PyPI
   key: pypi
   repository: pypi
+  categories: [development, userstyle]
+  color: sapphire
+- name: PythonAnywhere
+  key: pythonanywhere
+  repository: pythonanywhere
   categories: [development, userstyle]
   color: sapphire
 - name: Quizlet
